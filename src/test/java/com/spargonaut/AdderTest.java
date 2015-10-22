@@ -11,7 +11,7 @@ public class AdderTest {
         int firstNumber = 3;
         int secondNumber = 5;
         Adder adder = new Adder();
-        assertThat(adder.addTwoInts(firstNumber, secondNumber), is(8));
+        assertThat(adder.addTwoInts(firstNumber, secondNumber), is(9));
     }
 
     @Test
