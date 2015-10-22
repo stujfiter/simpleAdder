@@ -2,7 +2,7 @@ package com.spargonaut;
 
 public class Adder {
 
-    public int addTwoInts(int firstNumber, int secondNumebr) {
-        return 8;
+    public int addTwoInts(int firstNumber, int secondNumber) {
+        return firstNumber + secondNumber;
     }
 }
