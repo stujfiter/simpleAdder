@@ -10,8 +10,12 @@ public class AdderTest {
     public void shouldAddTwoInts() {
         int firstNumber = 3;
         int secondNumber = 5;
+
+        int correctSum = 8;
+        int incorrectSum = 10;
+
         Adder adder = new Adder();
-        assertThat(adder.addTwoInts(firstNumber, secondNumber), is(8));
+        assertThat(adder.addTwoInts(firstNumber, secondNumber), is(incorrectSum));
     }
 
     @Test
