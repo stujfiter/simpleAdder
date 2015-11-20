@@ -15,8 +15,8 @@ public class AdderTest {
         int incorrectSum = 10;
 
         Adder adder = new Adder();
-//        assertThat(adder.addTwoInts(firstNumber, secondNumber), is(correctSum));
-        assertThat(adder.addTwoInts(firstNumber, secondNumber), is(incorrectSum));
+        assertThat(adder.addTwoInts(firstNumber, secondNumber), is(correctSum));
+//        assertThat(adder.addTwoInts(firstNumber, secondNumber), is(incorrectSum));
     }
 
     @Test
